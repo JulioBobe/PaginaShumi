@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Crea tu cuenta</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" type="text/css" href="css/formulario.css">
+<!<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+<!<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+</head>
+
+<body>
+
+<h1>Comienza tu camino en los campos de la justicia</h1>
+			
+<div class="topnav" id="myTopnav"> 
+<a href="#Home">HOME</a>  
+<div class="dropdown">
+    <button class="dropbtn">LINEAS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#Top">Top</a>
+      <a href="#Jungla">Jungla</a>
+      <a href="#Medio">Medio</a>
+      <a href="#Adecarry">Adc</a>
+      <a href="#Support">Support</a>
+    </div>
+  </div>
+  <a href="#Campeones">CAMPEONES</a>
+  <a href="#Parche">PARCHE</a>
+  <a href="#Foro">FORO</a>
+  <a href="#registración">REGISTRACION</a>
+</div> 
+<br>
+<form action="IngresarDatos.php" method="post">
+<fieldset>
+<legend>Regístrate:</legend>
+
+	<label>Nombre de invocador:</label>
+<br>
+	<input type="text" name="Invocador" required>
+<br><br>
+	<label>Contraseña:</label>
+<br>
+	<input type="password" name="Password" required>
+<br><br>
+	<label>Mail:</label> 
+<br>
+	<input type="email" name="Mail" required>
+<br><br>
+	<label>Género:</label> 
+<br>
+	<input type="radio"name="Genero"value="Hombre" 
+checked> Hombre 
+	<input type="radio" name="Genero" value="Mujer"> Mujer 
+ 	<input type="radio" name="Genero"value="Otro"> Otro 
+<br><br>
+	<label>Fecha de nacimiento: </label> 
+<br>
+	<input type="date" name="Nacimiento">
+	
+	<br><br>			
+	<input type="submit" value="Regístrate!">
+</fieldset>
+</form>
+
+</body>
+
+</html> 

@@ -1,0 +1,62 @@
+div#loguear{
+	float: right;
+	width: 35%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+form {
+	width: 100%;
+   	height:87%; 
+   	margin: auto;
+   	margin-top: 23%;
+	margin-left:17%;
+}
+input[type=text], input[type=password] {
+    margin: auto;
+    margin-left: 50%;
+    width: 70%;
+    padding: 0.2% 5%;
+    text-align:center;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height:5.5%;
+    margin-bottom: 7%;
+}
+input[type=text]:focus, input[type=password]:focus{
+	border: 2px solid  #462ebf ;
+}
+button {
+    background-color: #462ebf;
+    color: white;
+    margin-bottom: auto;
+    cursor: pointer;
+    width: 60%;
+    margin: auto;
+    margin-left: 5%;
+    height: 7%;
+    font-size: 25px;
+}
+button:hover {
+    opacity: 0.9;
+}
+span.psw {	
+    margin: auto;
+    margin-left:10% ;
+    padding-top: 16px;
+}
+label#loginName{
+	font-size: 40px;
+	margin: auto;
+	margin-left: -8.5%;
+	width: 100%;
+}
+label#loginPass{
+	font-size: 40px;
+	margin: auto;
+	margin-left: 12%;
+	width: 100%;	
+}
