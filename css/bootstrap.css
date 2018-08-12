@@ -3894,8 +3894,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 .nav-item{
-  margin-left:4px;
-  margin-right:4px;
+  margin-left:40px;
+  margin-right:40px	;	
 }
 
 .nav-tabs .nav-item {

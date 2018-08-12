@@ -12,6 +12,7 @@
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 
+<link rel="stylesheet" type="text/css" href="css/principal.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
@@ -55,8 +56,48 @@
       <li class="nav-item">
 	<a class="nav-link" href="#" style="color: white;">REGISTRACION</a>
       </li>
-      
     </ul>
   </div>
-</nav>	
+</nav>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="background-color: #050;">
+     <div class="slider">
+	<label id="FanArt">Mandanos tu Fan-Art en "Contactanos"</label>
+		<input type="radio" id="boton1" name="sradio">
+		<label for="boton1"></label>
+		<input type="radio" id="boton2" name="sradio">
+		<label for="boton2"></label>	
+		<input type="radio" id="boton3" name="sradio">
+		<label for="boton3"></label>	
+		<input type="radio" id="boton4" name="sradio">
+		<label for="boton4"></label>	
+		<ul>
+			<li><img src="img/Galeria/Galeria1.jpg" alt=""></li>
+			<li><img src="img/Galeria/Galeria2.jpg" alt=""></li>
+			<li><img src="img/Galeria/Galeria3.jpg" alt=""></li>
+			<li><img src="img/Galeria/Galeria4.jpg" alt=""></li>
+		</ul>
+	</div>
+    </div>
+    <div class="col" style="background-color: #f00">
+      <div id="loguear">
+		<form action="action_page.php">
+  	  			<label id="loginName" for="name">Nombre de invocador</label><br>
+ 	  			<input type="text" placeholder="Escribe tu nombre de invocador" name="name" required>
+				<br> 	  
+ 	  			<label id="loginPass" for="contra">Contraseña</label><br>
+ 	  		 	<input type="password" placeholder="Escribe tu contraseña" name="contra" required>
+				<br>
+ 	  			<button type="submit">Login</button> <br><br>
+  	  			
+     				<input type="checkbox" checked="checked" name="remember"> <label id="recordar">Recordarme</label>
+				<span class="psw"><a href="#">¿Olvidaste tu contraseña?</a></span>
+		</form>
+ 	</div>
+    </div>
+  </div>
+</div>	
 </body>
