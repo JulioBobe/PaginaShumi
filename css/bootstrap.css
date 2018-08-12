@@ -3895,9 +3895,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item {
-  margin-bottom: -1px;
-  height: 100%;
-  
+  margin-bottom: -1px; 
 }
 .nav-item:hover {
    background-color: #349;
@@ -3907,6 +3905,7 @@ input[type="button"].btn-block {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -3941,6 +3940,7 @@ input[type="button"].btn-block {
   color: #fff;
   background-color: #007bff;
 }
+
 
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
