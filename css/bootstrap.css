@@ -3116,7 +3116,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item {
-  display: block;
+  /*display: block;*/
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
@@ -3896,6 +3896,11 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  height: 100%;
+  
+}
+.nav-item:hover {
+   background-color: #349;
 }
 
 .nav-tabs .nav-link {
