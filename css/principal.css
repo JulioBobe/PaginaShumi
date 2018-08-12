@@ -134,7 +134,6 @@ border: 3px solid #77f;
     color: white;
     padding: 6% 38%;
     background-color: inherit;
-    font-family: inherit;
     margin: auto;
     text-align: center;
 }
@@ -236,9 +235,11 @@ input[type=text], input[type=password] {
     margin-bottom: 7%;
     margin:0px auto; 
     display:block;
+    font-family: lol;
 }
 input[type=text]:focus, input[type=password]:focus{
 	border: 2px solid  #462ebf ;
+	
 }
 button {
     background-color: #462ebf;
@@ -249,6 +250,7 @@ button {
     margin: auto;
     height: 8%;
     font-size: 25px;
+    font-family: lol;
 }
 button:hover {
     opacity: 0.9;
@@ -257,6 +259,7 @@ span.psw {
     margin: auto;
     margin-left:10% ;
     padding-top: 16px;
+    font-family: lol;
 }
 label#loginName{
 	font-size: 40px;
