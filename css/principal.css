@@ -3,7 +3,7 @@ h1
 	text-align:center;
 	font-size:300%;
 	margin: auto;
-	
+        color: #fff;
 }
 
 h5
@@ -13,6 +13,7 @@ h5
 	margin-bottom: 1%;
 	margin-right: 5%;
 	margin-left: 5%;
+       
 
 }
 html, body{
@@ -301,7 +302,7 @@ div#noticia{
 	text-align:center;
 	margin:auto;
 	margin-top:2%;
-	background: #abc4e3;
+	background: #ffbe33;
 	width:98%;
 	height:40%;
 	overflow-y: scroll;
