@@ -19,6 +19,7 @@ html, body{
     height: 100%;
 }
 body{ 
+    color: #fff;
     background-image: url(../fon.jpg) ;
     background-position: center center;
     background-repeat:  no-repeat;
