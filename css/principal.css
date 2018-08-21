@@ -15,9 +15,24 @@ h5
 	margin-left: 5%;
 
 }
-body{
-	background-color:#b7cbe4;
+html, body{
+    height: 100%;
 }
+body{ 
+    background-image: url(../fondo.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+
+/*body{
+    
+    background-image: url("../fondo.png");
+    background-repeat: repeat;
+      
+}*/
  /* GALERIA */
 .slider{
  float: left;

@@ -64,8 +64,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
+  height: 100%;
 }
-
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
