@@ -21,7 +21,7 @@ html, body{
 }
 body{ 
     color: #fff;
-    background-image: url(../fon.png) ;
+    background-image: url(../img/Fondos/fondoPrincipal.png) ;
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
