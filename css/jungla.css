@@ -3,9 +3,16 @@ h1
 	text-align:center;
 	font-size:300%;
 	margin: auto;
-        color: #fff;
+    color: #fff;
 }
-
+#fondo{
+    color: #fff;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: none;
+    background-size:  cover;
+    background-color: #999;
+}
 h5
 {
 	text-align:center;
