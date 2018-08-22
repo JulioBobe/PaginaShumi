@@ -8,67 +8,81 @@
 <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" type="text/css" href="css/formulario.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+<link rel="stylesheet" type="text/css" href="css/bootsrapCampeones.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
 </head>
 
-<body>
+<body style="position:absolute;left:0;top:0x;width:100%;height:100%;z-index:0;margin:auto;font-family:lol;color:white"align="center" >
 
-<h1>Comienza tu camino en los campos de la justicia</h1>
+<center><h1>COMIENZA TU CAMINO EN LOS CAMPOS DE LA JUSTICIA</h1></center>
 			
-<div class="topnav" id="myTopnav"> 
-<a href="#Home">HOME</a>  
-<div class="dropdown">
-    <button class="dropbtn">LINEAS
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#Top">Top</a>
-      <a href="#Jungla">Jungla</a>
-      <a href="#Medio">Medio</a>
-      <a href="#Adecarry">Adc</a>
-      <a href="#Support">Support</a>
-    </div>
-  </div>
-  <a href="#Campeones">CAMPEONES</a>
-  <a href="#Parche">PARCHE</a>
-  <a href="#Foro">FORO</a>
-  <a href="#registración">REGISTRACION</a>
-</div> 
-<br>
-<form action="IngresarDatos.php" method="post">
-<fieldset>
-<legend>Regístrate:</legend>
-
+<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #132e6d;" >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+     <ul class="navbar-nav">
+       <li class="nav-item active">
+         <a class="nav-link" href="PaginaPrincipal.html" style="color: white;"> HOME <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"style="color: white;" aria-haspopup="true" aria-expanded="false">LINEAS</a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           <a class="dropdown-item" href="#">SUPERIOR</a>
+           <a class="dropdown-item" href="#">JUNGLA</a>
+           <a class="dropdown-item" href="#">MEDIO</a>
+           <a class="dropdown-item" href="#">INFERIOR</a>
+           <a class="dropdown-item" href="#">SOPORTE</a>	
+           </div>
+         </li>
+       <li class="nav-item">
+         <a class="nav-link" href="Campeones.html" style="color: white;">CAMPEONES</a>
+       </li>
+ 
+       <li class="nav-item">
+         <a class="nav-link" href="#" style="color: white;">PARCHE</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#" style="color: white;">CONTACTANOS</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="Formulario.html" style="color: white;">REGISTRACION</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
+ <br>
+<center>
+<form>
+  <fieldset>
 	<label>Nombre de invocador:</label>
-<br>
-	<input type="text" name="Invocador" required>
-<br><br>
+  <br>
+	<input type="text" placeholder="Nombre de invocador" name="Invocador" required>
+  <br><br>
 	<label>Contraseña:</label>
-<br>
-	<input type="password" name="Password" required>
-<br><br>
+  <br>
+	<input type="password" placeholder="Contraseña" name="Password" required>
+  <br><br>
 	<label>Mail:</label> 
-<br>
-	<input type="email" name="Mail" required>
-<br><br>
+  <br>
+	<input type="email" placeholder="Correo electronico" name="Mail" required>
+  <br><br>
 	<label>Género:</label> 
-<br>
-	<input type="radio"name="Genero"value="Hombre" 
-checked> Hombre 
+  <br>
+	<input type="radio"name="Genero"value="Hombre" checked> Hombre 
 	<input type="radio" name="Genero" value="Mujer"> Mujer 
  	<input type="radio" name="Genero"value="Otro"> Otro 
-<br><br>
+  <br><br>
 	<label>Fecha de nacimiento: </label> 
-<br>
-	<input type="date" name="Nacimiento">
-	
-	<br><br>			
-	<input type="submit" value="Regístrate!">
-</fieldset>
+  <br>
+  <input type="date" name="Nacimiento">
+  <br><br>			
+ 	<input type="submit" value="Regístrate!">
+  </fieldset>
 </form>
-
+</center>
+<br>
 </body>
 
 </html> 

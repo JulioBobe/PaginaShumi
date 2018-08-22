@@ -4,22 +4,42 @@ h3
 	font-size:135%;
 	font-family:Blackletter;
 }
-
-/*body
-{
-	background-image:url('https://images2.alphacoders.com/611/thumb-1920-611981.jpg')
-}*/
+html, body{
+    height: 100%;
+}
+body{ 
+    color: #fff;
+    background-image: url(../img/Fondos/fondoFormulario.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
 
 form{
 	text-align:center;
-	font-family: Blackletter;
 }
 
 label{
 	font-size: 135%;
 }
-input:focus{
-	border:1px solid #123; 
+
+input[type=text], input[type=password], input[type=email] {
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    text-align:center;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height:7.5%;
+    margin-bottom: 7%;
+    margin:0px auto; 
+    display:block;
+    font-family: lol;
+}
+input[type=text]:focus, input[type=password]:focus,  input[type=email]:focus{
+    border: 2px solid  #462ebf ;
 }
 input[type="submit"]{
 	margin-bottom: 0;
