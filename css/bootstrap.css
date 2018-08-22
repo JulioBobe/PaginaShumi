@@ -41,7 +41,6 @@
 }
 
 html {
-  font-display: #fff;
   font-family: lol;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -3117,7 +3116,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item {
-  /*display: block;*/
+  display: block;
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;

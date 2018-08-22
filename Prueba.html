@@ -23,33 +23,33 @@
 .mySlides {display:none}
 .demo {cursor:pointer}
 </style>
-<body style="position:absolute;left:0;top:0x;width:100%;height:100%;z-index:0;margin:auto;color:white" align="center" >
+<body style="position:absolute;left:0;top:0x;width:100%;height:100%;z-index:0;margin:auto;color:white;" align="center" >
 
 <h1> Bronze2Diamond</h1>
 
 <h5>Bienvenidos a la guía de League of Legends que te ayudará a mejorar en cada partida y a ser un mejor jugador ¡No hay nada que te detenga! Es hora de empezar tu camino hacia los campos de la justicia. Buena suerte invocador.</h5>
 
-<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #237;" >
+<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #b8321b;" >
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>
-   <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-    <ul class="navbar-nav">
+  <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+  	<ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="Prueba.html" style="color: white;"> HOME <span class="sr-only">(current)</span></a>
       </li>
-	<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"style="color: white;" aria-haspopup="true" aria-expanded="false">LINEAS</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">SUPERIOR</a>
-          <a class="dropdown-item" href="#">JUNGLA</a>
-          <a class="dropdown-item" href="#">MEDIO</a>
-	  <a class="dropdown-item" href="#">INFERIOR</a>
-	  <a class="dropdown-item" href="#">SOPORTE</a>	
-        </div>
-      </li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"style="color: white;" aria-haspopup="true" aria-expanded="false">LINEAS</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    			<a class="dropdown-item" href="#">SUPERIOR</a>
+    			<a class="dropdown-item" href="#">JUNGLA</a>
+    			<a class="dropdown-item" href="#">MEDIO</a>
+	  			<a class="dropdown-item" href="#">INFERIOR</a>
+					<a class="dropdown-item" href="#">SOPORTE</a>	
+ 		   </div>
+ 		 </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color: white;">CAMPEONES</a>
+        <a class="nav-link" href="Campeones.html" style="color: white;">CAMPEONES</a>
       </li>
 
       <li class="nav-item">
@@ -59,12 +59,12 @@
         <a class="nav-link" href="#" style="color: white;">CONTACTANOS</a>
       </li>
       <li class="nav-item">
-	<a class="nav-link" href="Formulario.html" style="color: white;">REGISTRACION</a>
+				<a class="nav-link" href="Formulario.html" style="color: white;">REGISTRACION</a>
       </li>
-    </ul>
+		</ul>
   </div>
 </nav>
-<div id="noticia">
+<div id="noticia" style="color:black;">
 	<h2>Actualizaciones</h2>
 	<h4>Mediante este sector les informaremos acerca del nuevo contenido que se agregará en la página</h4> 
 	<p> Texto ejemplo<P>
@@ -81,39 +81,41 @@
   <div class="row">
     <div class="col">
      <div class="slider">
-	<label id="FanArt">Mandanos tu Fan-Art en "Contactanos"</label>
-		<input type="radio" id="boton1" name="sradio">
-		<label for="boton1"></label>
-		<input type="radio" id="boton2" name="sradio">
-		<label for="boton2"></label>	
-		<input type="radio" id="boton3" name="sradio">
-		<label for="boton3"></label>	
-		<input type="radio" id="boton4" name="sradio">
-		<label for="boton4"></label>	
-		<ul>
-			<li><img src="img/Galeria/Galeria1.jpg" alt=""></li>
-			<li><img src="img/Galeria/Galeria2.jpg" alt=""></li>
-			<li><img src="img/Galeria/Galeria3.jpg" alt=""></li>
-			<li><img src="img/Galeria/Galeria4.jpg" alt=""></li>
-		</ul>
-	</div>
-    </div>
+			<label id="FanArt">Mandanos tu Fan-Art en "Contactanos"</label>
+			<input type="radio" id="boton1" name="sradio">
+			<label for="boton1"></label>
+			<input type="radio" id="boton2" name="sradio">
+			<label for="boton2"></label>	
+			<input type="radio" id="boton3" name="sradio">
+			<label for="boton3"></label>	
+			<input type="radio" id="boton4" name="sradio">
+			<label for="boton4"></label>	
+			<ul>
+				<li><img src="img/Galeria/Galeria1.jpg" alt=""></li>
+				<li><img src="img/Galeria/Galeria2.jpg" alt=""></li>
+				<li><img src="img/Galeria/Galeria3.jpg" alt=""></li>
+				<li><img src="img/Galeria/Galeria4.jpg" alt=""></li>
+			</ul>
+		</div>
+  </div>
     <div class="col">
       <div id="loguear">
-		<form action="action_page.php">
+				<div style="background-color: #d8ab4b;  border-style: solid;border-color: rgb(167, 105, 52);border-width: 10px">
+					<form action="action_page.php">
   	  			<label id="loginName" for="name">Nombre de invocador</label><br>
- 	  			<input type="text" placeholder="Escribe tu nombre de invocador" name="name" required>
-				<br> 	  
- 	  			<label id="loginPass" for="contra">Contraseña</label><br>
- 	  		 	<input type="password" placeholder="Escribe tu contraseña" name="contra" required>
-				<br>
- 	  			<center><button type="submit">Login</button> <br><br></center>
+ 	  				<input type="text" placeholder="Escribe tu nombre de invocador" name="name" required>
+						<br> 	  
+ 	  				<label id="loginPass" for="contra">Contraseña</label><br>
+ 	  		 		<input type="password" placeholder="Escribe tu contraseña" name="contra" required>
+						<br>
+ 	  				<center><button type="submit">Login</button> <br><br></center>
   	  			
-     			<center><input type="checkbox" checked="checked" name="remember"> <label id="recordar">Recordarme</label>
-				<span class="psw"><a href="#">¿Olvidaste tu contraseña?</a></span></center>
-		</form>
- 	</div>
-    </div>
-  </div>
+     				<center><input type="checkbox" checked="checked" name="remember"> <label id="recordar">Recordarme</label>
+						<span class="psw"><a href="#">¿Olvidaste tu contraseña?</a></span></center>
+					</form>
+				</div>
+ 			</div>
+  	</div>
+	</div>
 </div>	
 </body>
