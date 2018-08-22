@@ -10,9 +10,9 @@
 <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" type="text/css" href="css/campeones.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-<!<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
 
 </head>
 
@@ -22,35 +22,46 @@
 .mySlides {display:none}
 .demo {cursor:pointer}
 </style>
-<body style="position:absolute;left:0;top:0x;width:100%;height:100%;z-index:0;margin:auto" align="center" >
-
+<body style="position:absolute;left:0;top:0x;width:100%;height:100%;z-index:0;margin:auto;font-family:lol;"align="center" >
 <h1>SELECCIONA TU CAMPEON</h1>
 
 <br>
 
-<div class="topnav" id="myTopnav"> 
-<a href="#Home">HOME</a>  
-<div class="dropdown">
-    <button class="dropbtn">LINEAS
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#Top">Top</a>
-      <a href="#Jungla">Jungla</a>
-      <a href="#Medio">Medio</a>
-      <a href="#Adecarry">Adc</a>
-      <a href="#Support">Support</a>
-    </div>
-  </div>
-  <a href="#Campeones">CAMPEONES</a>
-  <a href="#Parche">PARCHE</a>
-  <a href="#Foro">CONTACTANOS</a>
-  <a href="#registración">REGISTRACION</a>
-</div> 
-
-
-
-
+<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #b8321b;" >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+     <ul class="navbar-nav">
+       <li class="nav-item active">
+         <a class="nav-link" href="PaginaPrincipal.html" style="color: white;"> HOME <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"style="color: white;" aria-haspopup="true" aria-expanded="false">LINEAS</a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           <a class="dropdown-item" href="#">SUPERIOR</a>
+           <a class="dropdown-item" href="#">JUNGLA</a>
+           <a class="dropdown-item" href="#">MEDIO</a>
+           <a class="dropdown-item" href="#">INFERIOR</a>
+           <a class="dropdown-item" href="#">SOPORTE</a>	
+           </div>
+         </li>
+       <li class="nav-item">
+         <a class="nav-link" href="Campeones.html" style="color: white;">CAMPEONES</a>
+       </li>
+ 
+       <li class="nav-item">
+         <a class="nav-link" href="#" style="color: white;">PARCHE</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#" style="color: white;">CONTACTANOS</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="Formulario.html" style="color: white;">REGISTRACION</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
 
 <div class="seleccion">
 <a href="#Aatrox" style="text-decoration:none;">
