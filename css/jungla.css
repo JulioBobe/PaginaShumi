@@ -15,18 +15,15 @@ h5
 	margin-left: 5%;
 }
 h3{
-    text-align:center;
+    text-align:left;
 	margin:auto;
-	margin-bottom: 1%;
-	margin-right: 5%;
-	margin-left: 5%;
 }
 html, body{
     height: 100%;
 }
 body{ 
     color: #fff;
-    background-image: url(../img/Fondos/fondoPrincipal.png) ;
+    background-image: url(../img/Fondos/fondoJungla.jpeg) ;
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
